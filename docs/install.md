@@ -135,6 +135,8 @@ python /data/Metis/app/controller/manage.py runserver {ip}:{port}
 
 修改`/Metis/uweb/src/app.json`文件的后端地址配置: "origin": "http://${ip}:${port}" , ip和port对应服务端地址
 
+进入下一层目录cd uweb
+
 运行npm run build
 
 将uweb目录下的custom文件夹复制到uweb目录下生成的dist文件夹中
